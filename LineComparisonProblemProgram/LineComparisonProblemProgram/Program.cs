@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LineComparisonProblemProgram
-{ 
+{
     class Program
     {
         public static void Main(string[] args)
@@ -47,11 +47,14 @@ namespace LineComparisonProblemProgram
             {
                 Console.WriteLine("Two Lines are Equal ");
             }
+            else if (length1 > length2)
+            {
+                Console.WriteLine("Line1 is greater than Line2");
+            }
             else
             {
-                Console.WriteLine("Lines are not Equal");
+                Console.WriteLine("Line 1 is less than Line2");
             }
-
         }
 
 
